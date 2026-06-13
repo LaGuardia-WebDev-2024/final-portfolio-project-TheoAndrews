@@ -1,36 +1,160 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Final Project - Resume</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <style>
-      /* Styling Only Related To THIS Page */
-    </style>
-  </head>
-  <body>
-    <!-- ⬆⬆⬆⬆ Nav Bar -->
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="aboutme.html">About Me</a></li>
-      <li><a href="art.html">Art</a></li>
-      <li><a class="active" href="resume.html">Resume</a></li>
-      <li style="float: right">
-        <a target="_blank" href=""
-          ><img
-            src="https://www.getfocused.no/wp-content/uploads/2022/09/White-YouTube-Logo-Transparent.png"
-            style="width: 25px; margin: -5px"
-        /></a>
-      </li>
-      <li style="float: right">
-        <a target="_blank" href=""
-          ><img
-            src="https://img.icons8.com/win10/512/FFFFFF/instagram-new.png"
-            style="width: 25px; margin: -5px"
-        /></a>
-      </li>
-    </ul>
-    <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>Resume</h1>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <title>Resume </title>
+        <style>
+        body{
+            background-color: rgb(189, 232, 245);
+        }
+        .h1{
+            color: rgb(15, 40, 84);
+            text-align: center;
+            font-family: "Courier", monospace;
+            font-size: 90px;
+            margin-top: 60px;
+            margin-bottom: -10px;
+            padding: 0;
+        }
+        .pages {
+            color: rgb(15, 40, 84);
+            text-align: center;
+            font-family: "Courier", monospace;
+            font-size: 30px;
+            margin: 0;
+            padding: 0;
+            opacity: 90%;
+            width:100%;
+            overflow:auto;
+            display: inline;
+            padding-left: 30px;
+            padding-right: 30px;
+            width: fit-content;
+            opacity: 80%
+        }
+        .pages:hover {
+            color: rgb(15, 40, 84);
+            text-align: center;
+            font-family: "Courier", monospace;
+            font-size: 30px;
+            margin: 0;
+            padding: 0;
+            opacity: 90%;
+            width:100%;
+            overflow:auto;
+            display: inline;
+            padding-left: 30px;
+            padding-right: 30px;
+            /* background-color: pink; */
+            width: fit-content;
+        }
+        .bigpages {
+            display:flex;
+            justify-content:center;
+            margin-top: 10px;
+        }
+        a {
+            text-decoration: none; 
+            color: inherit;        
+        }
+        h1 {
+            color: rgb(15, 40, 84);
+            font-family: "Courier", monospace;
+            margin-bottom: -15px;
+            font-size: 25px;
+        }
+        p {
+            color: rgb(15, 40, 84);
+            font-family: "Courier", monospace;
+            font-size: 18px;
+        }
+        .skillz {
+            width: 30%;
+            float:left;
+        }
+        .xp {
+            width: 50%;
+            padding-left: 70px;
+            float:left;
+        }
+        #big {
+            font-size: 50px;
+            text-align: center;
+            display: block;
+        }
+        .h3 a{
+            color: rgb(15, 40, 84);
+            font-size: 20px;
+            width: 200px;
+            height: fit-content;
+            font-family: "Courier", monospace;
+            border: 3px solid rgb(15, 40, 84);
+            border-radius: 20px;
+            text-align: center;
+            margin:auto;
+            display: block;
+        }
+        .h3 a:hover{
+            color: rgb(15, 40, 84);
+            font-size: 20px;
+            width: 200px;
+            text-align: center;
+            margin:auto;
+            font-family: "Courier", monospace;
+            border: 3px solid rgb(15, 40, 84);
+            border-radius: 20px;
+            opacity: 80%;
+        }
+        .padding {
+            width: 10%;
+            float: left;
+        }
+        </style>
+    </head>
+    <body>
+
+
+       <p class="h1">THEO ANDREWS</p>
+        <div class="bigpages"> 
+        <div class="pages"><a target="_blank" href="aboutme.html">ABOUT</a></div>
+        <div class="pages"><a target="_blank" href="art.html">EXPIRIENCE</a></div>
+        <div class="pages"><a target="_blank" href="resume.html">RESUME</a></div>
+        <div class="pages"><a target="_blank" href="contact.html">CONTACT</a></div>
+    </div>
+    <br> <br>
+    <div class="h3">
+        <a href="https://aleacerhavist.com/">
+            <strong>PDF Resume</strong>
+        </a>
+        <br>
+    </div>
+    <div class="padding"><br></div>
+    <div class="skillz">
+        <h1>Skills</h1>
+        <p>⋆ OSHA 10 Certified 
+            <br>⋆ Hanging, Focusing, and Cabling Light Fixtures
+            <br>⋆ Spotlight Operation
+            <br>⋆ Programming EOS Family Light Boards 
+            <br>⋆ Hanging and Managing Intelligent Fixtures
+            <br>⋆ Experience in Lightwrite and Vectorworks
+            <br>⋆ Rigging and Fly Operation
+            <br>⋆ Handheld Tools, Drills/Impacts
+            <br>⋆ Model Building
+        </p>
+        <h1>Refferences</h1>
+        <p>
+            ⋆ C. Shea, Technical Director, cshea0205@gmail.com <br>
+            ⋆ G. Benjamin Swope, Lighting Supervisor, gswope@schools.nyc.gov <br>
+            ⋆ George Muller, Technical Director, gfmuller@aol.com
+        </p>
+    </div>
+    <div class="xp">
+        <h1>Job Tittle</h1>
+        <p><strong>"Show"</strong> Director: [name]. Supervisor: [name]. Theater, Town/City, State. 20XX</P>
+        <h1>Job Tittle</h1>
+        <p><strong>"Show"</strong> Director: [name]. Supervisor: [name]. Theater, Town/City, State. 20XX
+        <br><strong>"Show"</strong> Director: [name]. Supervisor: [name]. Theater, Town/City, State. 20XX</P>
+    </div>
+    <div class="padding"><br></div>
+    </body>
 </html>
